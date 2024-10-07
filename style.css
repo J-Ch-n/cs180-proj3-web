@@ -1,0 +1,104 @@
+/* Referenced https://v1.designsystem.digital.gov/components/colors/ */
+/* Referenced https://www.youtube.com/watch?v=i7uJAOFEd4g */
+p {
+  font-family:'Georgia';
+  text-align: left;
+  text-emphasis-color: #3E3E3E;
+  color: #3E3E3E;
+}
+a {
+  text-decoration: none;
+}
+
+/* Referenced https://css-tricks.com/snippets/css/complete-guide-grid/ and
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout*/
+.image_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: auto; 
+  width: 50vw;
+  margin-left: 250px;
+  gap: 15px 20px;
+  background-color: white;
+}
+
+.image {
+  background-color: white;
+  align-self: center;
+  justify-self: center;
+}
+
+.caption {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  
+}
+
+.main {
+  display: flex;  
+  font-weight: bold;
+  margin-left: 270px;
+  margin-right: 20px;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sidebar {
+  width: 250px;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  background-color: #76837d;
+  flex-direction: column ;
+}
+
+.sidebar-logo a{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #faf7ef;
+  text-decoration: none;
+  font-size: 30px
+}
+
+.sidebar-nav-item {
+  list-style-type: none;
+  align-items: left;
+  margin-left: -5px;
+}
+
+.sidebar-nav-item a {
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: large;
+}
+
+#title {
+  text-align: center; 
+  flex: 1 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.btn{
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #b0b0b0;
+}
