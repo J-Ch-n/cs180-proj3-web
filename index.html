@@ -228,7 +228,7 @@
                         <p>
                             I managed to change my gender from male to female by morphing my face into an averaged Chinese female face. I downloaded a photo of the average Chinese female face 
                             and defined correspondences similar to part 1. Using the morph sequence from part 3, I successfully morphed my face into the average female face while recording the intemediate
-                            images at each step. After visualizing all intermediate images, I have chosen the one with my face half morphed into the mean face, thus changing my gender from male to 
+                            images at each step. I tried morphing only my appearance, only my shape, and both. After visualizing all intermediate images, I have chosen the one with my face half morphed into the mean face, thus changing my gender from male to 
                             female. Here are the results.
                         </p>
 
@@ -249,15 +249,38 @@
                                     </figcaption>
                                 </figure>
                             </div>
+                        </div>
+                        <div class="tri"> 
                             <div class=image>
                                 <figure> 
-                                    <img src="output/bw-gender/gender_36.jpeg", width="400">
+                                    <img src="output/bw-gender/me_to_female_geom.jpg", width="200">
                                     <figcaption class="caption"> 
-                                        After Gender Swap
+                                        Appearance Only 
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class=image>
+                                <figure> 
+                                    <img src="output/bw-gender/me_to_female_appearance.jpg", width="200">
+                                    <figcaption class="caption"> 
+                                        Shape Only
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class=image>
+                                <figure> 
+                                    <img src="output/bw-gender/me_to_female_both.jpg", width="200">
+                                    <figcaption class="caption"> 
+                                        Both Appearance and Shape
                                     </figcaption>
                                 </figure>
                             </div>
                         </div>
+                    
+                    <p> 
+                        In my opinion, the best morphing result was with both shape and appearance as it captured the female face shape while retaining my facial details. The appearance 
+                        only transformation remotely looked like me, and the shape only transformation looked too much like me.
+                    </p>
 
                     <h3 id="pca"> PCA </h3>
                         <p>
